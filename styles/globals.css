@@ -11,6 +11,28 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  margin: 0;
+  color: #c9ada7;
+  margin-bottom: 2rem;
+}
+
+label {
+  color: #c9ada7;
+}
+
+input {
+  outline: none;
+  border: 0;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+div + div {
+  margin-top: 1rem;
+}
+
 * {
   box-sizing: border-box;
 }
