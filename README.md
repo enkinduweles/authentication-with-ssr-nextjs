@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Autenticação com JWT</h1>
+<p align="center">Este projeto foi criado durante a aula do <strong> Programa Ignite da Rocketseat,</strong></p>
 
-## Getting Started
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#rodando-o-app">Rodando o app</a> •
+ <a href="#autor">Autor</a>
+</p>
 
-First, run the development server:
+## Objetivo
+
+Apresentar formas de como lidar com a autenticação jwt e refresh token tanto pelo lado do frontend como pelo SSR.
+Também foi explorado como lidar com a autorização de recursos por meio de permissões e cargos.
+
+## Tecnologias
+
+- [Nextjs](https://reactjs.org/)
+- [Axios](https://axios-http.com)
+- [Typescript](https://www.typescriptlang.org/)
+- [Nookies](https://github.com/maticzav/nookies)
+- [Jwt Decode](https://github.com/auth0/jwt-decode)
+
+## Rodando o app
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e .
+
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+Está aplicação possui um backend e é preciso utilizá-lo em conjunto. Para mais informações sobre o projeto [clique aqui](https://github.com/enkinduweles/auth-backend-ignite)
+
+Para rodar o backend da aplicação
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone <https://github.com/enkinduweles/auth-backend-ignite.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd auth-backend-ignite
+
+# Executar server
+# Server iniciará na porta: 3333 - acesse <http://localhost:3333>
+$ yarn server
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para rodar o frontend da aplicação
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+# Clone este repositório
+$ git clone <https://github.com/enkinduweles/authentication-with-ssr-nextjs.git>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd authentication-with-ssr-nextjs
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Instale as dependências
+$ yarn install
 
-## Learn More
+# Execute a aplicação em modo de desenvolvimento
+# A aplicação inciará na porta:3000 - acesse <http://localhost:3000>
+$ yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feito com ❤️ por **Enkindú Weles** 👋 [Entre em contato](https://www.linkedin.com/in/enkindu-weles/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**#NeverStopLearning**
