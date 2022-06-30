@@ -33,7 +33,7 @@ Para rodar o backend da aplicação
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/enkinduweles/auth-backend-ignite.git>
+$ git clone https://github.com/enkinduweles/auth-backend-ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd auth-backend-ignite
@@ -47,7 +47,7 @@ Para rodar o frontend da aplicação
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/enkinduweles/authentication-with-ssr-nextjs.git>
+$ git clone https://github.com/enkinduweles/authentication-with-ssr-nextjs.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd authentication-with-ssr-nextjs
